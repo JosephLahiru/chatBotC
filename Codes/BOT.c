@@ -10,6 +10,8 @@ int main()
 {
 	printf("ChatBotC\n\n");
 	
+	int i;
+	
 	char ques[100];
 	char name[50];
 	
@@ -22,6 +24,11 @@ int main()
 	{
 		printf("\n%s : ", name);
 		scanf("%s", &ques);
+		
+		//for(i = 0; i<=strlen(ques); i++)
+		//{
+		//	printf("%c\n", ques[i]);
+		//}
 		
 		if(strcmp(ques, "Hello") == 0)
 		{
